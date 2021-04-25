@@ -1,6 +1,6 @@
 # Data-Science-ML-Coding-Challenge
-This repository is for the Data Science ML Coding Challenge for Eluvio. Since this was an open challenge, I decided to include all the skills and research that I have learned from my academic projects and research. 
-## The first code which is [Eluvio_Lime.ipynb](https://github.com/tanvijain13/-Data-Science-ML-Coding-Challenge/blob/main/Eluvio_Lime.ipynb) which target on the classification of the specific title (text), and declare if it is an interesting title or uninteresting based on the *"up_votes"*. And to classify this, I have used following procedure :
+This repository is for the Data Science ML Coding Challenge for Eluvio. Since this was an open challenge, I decided to include all the skills that I have learned from my academic projects and research to find an optimal problem and solve it.
+## The first code is [Eluvio_Lime.ipynb](https://github.com/tanvijain13/-Data-Science-ML-Coding-Challenge/blob/main/Eluvio_Lime.ipynb) which targets on the classification of the specific *title* (text), and predict if it is an interesting title or uninteresting based on the *"up_votes"*. And to classify this, I have used following procedure :
   ### 1. Removing the null values/zero values for *"up_votes"*, so that only genuine title which has some number of votes is considered. 
   ### 2. Adding the classes (categories) for classification - I have created two categories **(High,Low)** for interesting and uninteresting/less interesting titles correspondingly.
   ### 3. Sampling the data such that both classes have equal number of datapoints in train dataset.
